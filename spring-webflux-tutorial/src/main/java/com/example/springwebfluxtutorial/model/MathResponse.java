@@ -9,7 +9,7 @@ import java.util.Date;
  **/
 @Data
 public class MathResponse {
-    private Date date;
+    private Date date = new Date();
     private int output;
 
     public MathResponse(int output) {
